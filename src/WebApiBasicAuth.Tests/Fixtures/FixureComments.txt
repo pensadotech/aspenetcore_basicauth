@@ -1,0 +1,123 @@
+﻿Test Fixture comments
+----------------------
+
+for testing with xUnit test rograms:
+
+* Isolated test: Can conatain isolated test. Using a constructor for a test class, it has the limitation 
+                 that for every test, the constructure will be execued. For handlimg common initialization
+                 elemensts, it is better to use a Fixture.
+
+* Fixture: For common elements accross multiple test inside a single test class. A Fixture can 
+           help isolating the common elements and execute thme just once, making overall execution more efficient. 
+
+* Collection Fixture: For common elements accorss multpile test inside multiple test programs. A collection fixture
+                      extend an exiting Fixture and can help isolating the commen elements and execute once, 
+                      making overall execution more efficient.
+
+
+
+DI involce in Testing 
+---------------------------------
+I is acceptable to instantiatre mock object for the classes constructores to test, and it is not that often
+that DI is requierd. 
+
+However, it this is required, it is possble as follows:
+
+1. Create a class that use a fixture (e.g. EmployeeServiceWithAspNetCoreDIFixture)
+   that implements the IDisposable interface.
+
+2. Add "using Microsoft.Extensions.DependencyInjection;".
+
+3. Add as private member as service provider.
+
+4. In the constructor instantiate DI service collection.
+
+5. Add necesary servicers.
+
+6. Build teh service provider.
+
+7. Similar to any Fixture, add properties with only GET capability.
+   there will return the instantiated class with all dependencies.
+
+
+Example:
+
+using EmployeeManagement.Business;
+using EmployeeManagement.DataAccess.Services;
+using EmployeeManagement.Services.Test;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace EmployeeManagement.Test.Fixtures;
+
+public class EmployeeServiceWithAspNetCoreDIFixture : IDisposable
+{
+    // Private memebers
+    private readonly ServiceProvider _serviceProvider;
+
+    // Properies
+    public IEmployeeManagementRepository EmployeeManagementTestDataRepository
+    {
+        get
+        {
+            return _serviceProvider.GetService<IEmployeeManagementRepository>();
+        }
+    }
+
+    public IEmployeeService EmployeeService
+    {
+        get
+        {
+            return _serviceProvider.GetService<IEmployeeService>();
+        }
+    }
+
+    // Constructor 
+    public EmployeeServiceWithAspNetCoreDIFixture()
+    {
+        var services = new ServiceCollection();
+        services.AddScoped<EmployeeFactory>();
+        services.AddScoped<IEmployeeManagementRepository, 
+            EmployeeManagementTestDataRepository>();
+        services.AddScoped<IEmployeeService, EmployeeService>();
+
+        // build provider
+        _serviceProvider = services.BuildServiceProvider();
+    }
+
+    // Destructor
+    public void Dispose()
+    {
+        // clean up the setup code, if required
+    }
+}
+
+
+Moq concetps
+------------------------
+
+The idea behind moq is to simulate a dependecy when testing a piece of functionality.
+Instead of having to instantiate elements, the moq defintion can set teh behavior 
+of a method inside a moq class, and define what to return.
+
+For example,the WeatherForecastController has teh method GetCurrentWeatherForecast().
+To simulate teh behavior, the following logic depicts the ideas, in which 
+as simple moq object is defined, as well as a moq for the service that 
+works inside teh controller. Example for WeatherForecastControllerTest
+
+ // logger
+ var loggerMock = new Mock<ILogger<WeatherForecastController>>();
+
+ // Service
+ var weatherForecastServiceMock = new Mock<IWeatherForecaster>();
+            weatherForecastServiceMock
+                .Setup(m => m.GetCurrentWeatherAsync(_currentCity))
+                .ReturnsAsync(new WeatherResult()
+                {
+                    City = _currentCity,
+                    ExecutionDateTime = DateTime.Now.ToString(),
+                    Weather = new WeatherCondition()
+                });
+
+  // Controller
+  var weatherForecastController = new WeatherForecastController(weatherForecastServiceMock.Object,
+                                                                       loggerMock.Object);

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1f1e61c9-aa92-4191-9cd1-3ee7558ff4ec" name="apens@PROTEUS 2024-09-12 13:04:53" runUser="PROTEUS\apens" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-09-12T13:04:53.7012373-07:00" queuing="2024-09-12T13:04:53.7012378-07:00" start="2024-09-12T13:04:52.7780375-07:00" finish="2024-09-12T13:04:53.7812005-07:00" />
+  <TestSettings name="default" id="5be64740-90ba-4e8d-ac51-0639fd8e0297">
+    <Deployment runDeploymentRoot="apens_PROTEUS_2024-09-12_13_04_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="cda83d39-4405-4310-9edb-01b10af84697" testId="6f98765b-124a-5829-ef32-a5e3ce93dc05" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.CreateWeatherSetting_IvalidInput_MustReturnOkObjectResult" computerName="PROTEUS" duration="00:00:00.0029793" startTime="2024-09-12T13:04:53.6739059-07:00" endTime="2024-09-12T13:04:53.6739062-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cda83d39-4405-4310-9edb-01b10af84697" />
+    <UnitTestResult executionId="c24b8744-109a-41b9-ac6e-4df8ee19a199" testId="26112084-9e33-534b-e403-a16fbb9d165e" testName="WebApiBasicAuth.Tests.WeatherServiceCollectionExtensionsTest.RegisterWeatherServices_Execute_AddWeatherServices" computerName="PROTEUS" duration="00:00:00.0281845" startTime="2024-09-12T13:04:53.6340719-07:00" endTime="2024-09-12T13:04:53.6340720-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c24b8744-109a-41b9-ac6e-4df8ee19a199" />
+    <UnitTestResult executionId="a91a0152-846e-4af4-8d69-c2344a7a36de" testId="b776e91b-c733-6250-a9d2-7ad25e6ca891" testName="WebApiBasicAuth.Tests.AdmnControllerTest.GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast_wihMoq" computerName="PROTEUS" duration="00:00:00.0711273" startTime="2024-09-12T13:04:53.6669898-07:00" endTime="2024-09-12T13:04:53.6669899-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a91a0152-846e-4af4-8d69-c2344a7a36de" />
+    <UnitTestResult executionId="d0a918c8-c9f2-4909-bbf3-121ec63b09a8" testId="5b3e27af-7ffd-af67-b2b3-dc698524096f" testName="WebApiBasicAuth.Tests.DomainTest.WindPropertyGetter" computerName="PROTEUS" duration="00:00:00.0045436" startTime="2024-09-12T13:04:53.6309845-07:00" endTime="2024-09-12T13:04:53.6309846-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0a918c8-c9f2-4909-bbf3-121ec63b09a8" />
+    <UnitTestResult executionId="c37d673c-6d50-4500-abf9-cb39d25e035d" testId="e81417f7-bbbf-31ed-623e-215411354512" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherTemperature" computerName="PROTEUS" duration="00:00:00.0069265" startTime="2024-09-12T13:04:53.5849975-07:00" endTime="2024-09-12T13:04:53.5850360-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c37d673c-6d50-4500-abf9-cb39d25e035d" />
+    <UnitTestResult executionId="ae545105-c17e-4308-a677-7bd76a6753f7" testId="e9e2c97b-2e06-13f1-9bb9-2b329073af0b" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturWeatherResult" computerName="PROTEUS" duration="00:00:00.0018391" startTime="2024-09-12T13:04:53.6689384-07:00" endTime="2024-09-12T13:04:53.6689386-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae545105-c17e-4308-a677-7bd76a6753f7" />
+    <UnitTestResult executionId="a15af58a-8b3f-42ab-aee7-40716770ebda" testId="12cf7891-5a98-062c-94d2-ef5bb04a3686" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_ReturnsCurrentWeather(city: &quot;Seattle&quot;)" computerName="PROTEUS" duration="00:00:00.0006049" startTime="2024-09-12T13:04:53.6306339-07:00" endTime="2024-09-12T13:04:53.6306341-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a15af58a-8b3f-42ab-aee7-40716770ebda" />
+    <UnitTestResult executionId="74a82bec-e38b-411b-a99f-4ef25be9b659" testId="cb5b80a1-4538-5a4b-e075-c695c6e092f0" testName="WebApiBasicAuth.Tests.DomainTest.WeatherResultGetter" computerName="PROTEUS" duration="00:00:00.0068762" startTime="2024-09-12T13:04:53.5891929-07:00" endTime="2024-09-12T13:04:53.5891931-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74a82bec-e38b-411b-a99f-4ef25be9b659" />
+    <UnitTestResult executionId="6d618376-c940-4861-a01c-896d3d413da1" testId="2e06736d-d88d-a958-dca1-2a9ed7ff0102" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturWeatherResultWithValidProperties" computerName="PROTEUS" duration="00:00:00.0020269" startTime="2024-09-12T13:04:53.6670279-07:00" endTime="2024-09-12T13:04:53.6670280-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d618376-c940-4861-a01c-896d3d413da1" />
+    <UnitTestResult executionId="79a6c9eb-8c1c-480e-b493-e8dc7866b325" testId="5b2295b6-d8ee-5bf4-763e-1591479dbe1c" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturWeatherResultWithValidProperties" computerName="PROTEUS" duration="00:00:00.0015979" startTime="2024-09-12T13:04:53.6756050-07:00" endTime="2024-09-12T13:04:53.6756052-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79a6c9eb-8c1c-480e-b493-e8dc7866b325" />
+    <UnitTestResult executionId="5f4fb85c-f0b4-4a27-94e5-c8d2609f8b1f" testId="e9e00bb0-03a7-0473-d223-c3053622702a" testName="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_InvalidCredentials_ReturnsFail" computerName="PROTEUS" duration="00:00:00.0443003" startTime="2024-09-12T13:04:53.6823498-07:00" endTime="2024-09-12T13:04:53.6823505-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f4fb85c-f0b4-4a27-94e5-c8d2609f8b1f">
+      <Output>
+        <StdOut>Set authenticator handler elements&#xD;
+Set pretned provided credentials for : testuser01&#xD;
+Handler is initialized</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4af7f88-10d7-4ef2-9a92-44980174dbfe" testId="c7a46a26-d14c-03ed-1eae-057517576f08" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherWindSpeedDegrees" computerName="PROTEUS" duration="00:00:00.0007607" startTime="2024-09-12T13:04:53.6309435-07:00" endTime="2024-09-12T13:04:53.6309435-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4af7f88-10d7-4ef2-9a92-44980174dbfe" />
+    <UnitTestResult executionId="cd88ed83-ee62-438e-9e8c-7d288c28dbb6" testId="be9e8090-4217-f9ea-70ec-b554cc36dda2" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherTemperatureMinMax" computerName="PROTEUS" duration="00:00:00.0008514" startTime="2024-09-12T13:04:53.6309118-07:00" endTime="2024-09-12T13:04:53.6309119-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd88ed83-ee62-438e-9e8c-7d288c28dbb6" />
+    <UnitTestResult executionId="7b3ce3f4-2d4c-4947-b1a0-a5674f372f92" testId="28624ee3-50e0-9f79-7b1e-fdf350098f55" testName="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_MissingAuthorizationHeader_ReturnsFail" computerName="PROTEUS" duration="00:00:00.0010604" startTime="2024-09-12T13:04:53.6850300-07:00" endTime="2024-09-12T13:04:53.6850303-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b3ce3f4-2d4c-4947-b1a0-a5674f372f92">
+      <Output>
+        <StdOut>Set authenticator handler elements&#xD;
+Pretend tehr eare no credentials &#xD;
+Handler is initialized</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7b0f331f-d2a8-4d4e-9fb2-ae3642a27971" testId="e662425a-aa63-5b09-3947-b857d1e2edde" testName="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests.OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsSucessFull" computerName="PROTEUS" duration="00:00:00.0223375" startTime="2024-09-12T13:04:53.6339360-07:00" endTime="2024-09-12T13:04:53.6339361-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b0f331f-d2a8-4d4e-9fb2-ae3642a27971" />
+    <UnitTestResult executionId="fac409f6-8940-4fba-8b1e-b6b926c37f25" testId="469a6675-ee2d-9f9c-093c-d175bd5fcb6f" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturWeatherResult" computerName="PROTEUS" duration="00:00:00.0926558" startTime="2024-09-12T13:04:53.6614217-07:00" endTime="2024-09-12T13:04:53.6614221-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fac409f6-8940-4fba-8b1e-b6b926c37f25" />
+    <UnitTestResult executionId="138668c4-55a3-460c-ab9a-00d26fb3e96d" testId="36a4505c-e555-ae81-ab3e-58a105ac32ec" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturnOkObjectResult" computerName="PROTEUS" duration="00:00:00.0017360" startTime="2024-09-12T13:04:53.6707938-07:00" endTime="2024-09-12T13:04:53.6707940-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="138668c4-55a3-460c-ab9a-00d26fb3e96d" />
+    <UnitTestResult executionId="14201a3d-5270-420d-b0aa-bcb97c1f9405" testId="057597ad-bb2e-4685-8853-94d669c1f802" testName="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturnOkObjectResult" computerName="PROTEUS" duration="00:00:00.0032867" startTime="2024-09-12T13:04:53.6648108-07:00" endTime="2024-09-12T13:04:53.6648112-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14201a3d-5270-420d-b0aa-bcb97c1f9405" />
+    <UnitTestResult executionId="5f83b4bd-be23-4aec-92b2-2c4989a53a5e" testId="7e9383f7-2b9b-d586-1166-ac0ec53433cd" testName="WebApiBasicAuth.Tests.StatisticsControllerTests.GetStatistics_InputFromHttpConnectionFeature_MustReturnInputtedIps" computerName="PROTEUS" duration="00:00:00.1454660" startTime="2024-09-12T13:04:53.7185303-07:00" endTime="2024-09-12T13:04:53.7185306-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f83b4bd-be23-4aec-92b2-2c4989a53a5e" />
+    <UnitTestResult executionId="06527ce1-e2f2-41ca-8980-093c96d97929" testId="6cdd4c07-f069-e51e-e32f-bd4041db536d" testName="WebApiBasicAuth.Tests.WeatherForecastSecurityHeadersMiddlewareTest.InvokeAsync_Invoke_SetsExpectedResponseHeaders" computerName="PROTEUS" duration="00:00:00.0208534" startTime="2024-09-12T13:04:53.6338800-07:00" endTime="2024-09-12T13:04:53.6338802-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06527ce1-e2f2-41ca-8980-093c96d97929" />
+    <UnitTestResult executionId="34471975-aa09-4186-a82d-78d276e2b5b4" testId="b52e073d-f2d8-924a-ccea-0743efe70ed2" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherSummary" computerName="PROTEUS" duration="00:00:00.0007315" startTime="2024-09-12T13:04:53.5911025-07:00" endTime="2024-09-12T13:04:53.5911026-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34471975-aa09-4186-a82d-78d276e2b5b4" />
+    <UnitTestResult executionId="2322543f-0294-4bf6-a7e2-ada2de0f2ae9" testId="549efef7-5cbb-4c8e-afe3-0ae444909c2b" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherWind" computerName="PROTEUS" duration="00:00:00.0007598" startTime="2024-09-12T13:04:53.6308787-07:00" endTime="2024-09-12T13:04:53.6308787-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2322543f-0294-4bf6-a7e2-ada2de0f2ae9" />
+    <UnitTestResult executionId="c4bae65d-e643-4654-9c19-52eac0cb8f4b" testId="8978d168-3373-ff79-72fb-a2a0664ca0fd" testName="WebApiBasicAuth.Tests.DomainTest.TemperaturePropertyGetter" computerName="PROTEUS" duration="00:00:00.0001895" startTime="2024-09-12T13:04:53.6310268-07:00" endTime="2024-09-12T13:04:53.6310269-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4bae65d-e643-4654-9c19-52eac0cb8f4b" />
+    <UnitTestResult executionId="c2ebdfde-f642-4cb3-9751-4138713e5383" testId="0c68d3da-9763-0f8a-0bd0-3f21b363e841" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_ReturnsCurrentWeather(city: &quot;Irvine&quot;)" computerName="PROTEUS" duration="00:00:00.0002193" startTime="2024-09-12T13:04:53.6308367-07:00" endTime="2024-09-12T13:04:53.6308368-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2ebdfde-f642-4cb3-9751-4138713e5383" />
+    <UnitTestResult executionId="bd92922d-4911-42a9-93ac-3dbaa5a234d9" testId="4ab56007-991e-e720-5af2-59460d2275bf" testName="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherCondition" computerName="PROTEUS" duration="00:00:00.0006359" startTime="2024-09-12T13:04:53.6310761-07:00" endTime="2024-09-12T13:04:53.6310761-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd92922d-4911-42a9-93ac-3dbaa5a234d9" />
+    <UnitTestResult executionId="46ceea9f-6de7-4197-8ca2-1c0d6b30f15d" testId="cfbcd203-4efc-cdb5-defa-68f0f3303a78" testName="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests.OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsBadRequest" computerName="PROTEUS" duration="00:00:00.0003146" startTime="2024-09-12T13:04:53.6340332-07:00" endTime="2024-09-12T13:04:53.6340332-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46ceea9f-6de7-4197-8ca2-1c0d6b30f15d" />
+    <UnitTestResult executionId="09bef266-b489-4feb-82ea-1529c2ed35ed" testId="4d933897-9002-48b0-801f-70f5d0202372" testName="WebApiBasicAuth.Tests.AdmnControllerTest.GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast" computerName="PROTEUS" duration="00:00:00.0035763" startTime="2024-09-12T13:04:53.6339923-07:00" endTime="2024-09-12T13:04:53.6339924-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09bef266-b489-4feb-82ea-1529c2ed35ed" />
+    <UnitTestResult executionId="09cb1d5d-1e8b-4956-8390-4251f826e70a" testId="d5f9684d-da83-5cc6-04b6-a23735498f1b" testName="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_ValidCredentials_ReturnsSuccess" computerName="PROTEUS" duration="00:00:00.0017290" startTime="2024-09-12T13:04:53.6839127-07:00" endTime="2024-09-12T13:04:53.6839133-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09cb1d5d-1e8b-4956-8390-4251f826e70a">
+      <Output>
+        <StdOut>Set authenticator handler elements&#xD;
+Set pretned provided credentials for : testuser01&#xD;
+Handler is initialized</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f8945fe-3524-4cc5-af57-3455033f521b" testId="e979497e-a615-ce0c-bbae-ab12e2fa2992" testName="WebApiBasicAuth.Tests.DomainTest.WeatherConditionGetter" computerName="PROTEUS" duration="00:00:00.0001655" startTime="2024-09-12T13:04:53.6310586-07:00" endTime="2024-09-12T13:04:53.6310586-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f8945fe-3524-4cc5-af57-3455033f521b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastSecurityHeadersMiddlewareTest.InvokeAsync_Invoke_SetsExpectedResponseHeaders" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="6cdd4c07-f069-e51e-e32f-bd4041db536d">
+      <Execution id="06527ce1-e2f2-41ca-8980-093c96d97929" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastSecurityHeadersMiddlewareTest" name="InvokeAsync_Invoke_SetsExpectedResponseHeaders" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturWeatherResult" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="e9e2c97b-2e06-13f1-9bb9-2b329073af0b">
+      <Execution id="ae545105-c17e-4308-a677-7bd76a6753f7" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCurrentWeather_GetAction_MustReturWeatherResult" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_ReturnsCurrentWeather(city: &quot;Irvine&quot;)" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="0c68d3da-9763-0f8a-0bd0-3f21b363e841">
+      <Execution id="c2ebdfde-f642-4cb3-9751-4138713e5383" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_ReturnsCurrentWeather" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherTemperature" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="e81417f7-bbbf-31ed-623e-215411354512">
+      <Execution id="c37d673c-6d50-4500-abf9-cb39d25e035d" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherTemperature" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturWeatherResult" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="469a6675-ee2d-9f9c-093c-d175bd5fcb6f">
+      <Execution id="fac409f6-8940-4fba-8b1e-b6b926c37f25" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCityWeatherForecast_GetAction_MustReturWeatherResult" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.DomainTest.WindPropertyGetter" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="5b3e27af-7ffd-af67-b2b3-dc698524096f">
+      <Execution id="d0a918c8-c9f2-4909-bbf3-121ec63b09a8" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.DomainTest" name="WindPropertyGetter" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_MissingAuthorizationHeader_ReturnsFail" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="28624ee3-50e0-9f79-7b1e-fdf350098f55">
+      <Execution id="7b3ce3f4-2d4c-4947-b1a0-a5674f372f92" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest" name="HandleAuthenticateAsync_MissingAuthorizationHeader_ReturnsFail" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherSummary" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="b52e073d-f2d8-924a-ccea-0743efe70ed2">
+      <Execution id="34471975-aa09-4186-a82d-78d276e2b5b4" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherSummary" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherWindSpeedDegrees" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="c7a46a26-d14c-03ed-1eae-057517576f08">
+      <Execution id="a4af7f88-10d7-4ef2-9a92-44980174dbfe" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherWindSpeedDegrees" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests.OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsBadRequest" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="cfbcd203-4efc-cdb5-defa-68f0f3303a78">
+      <Execution id="46ceea9f-6de7-4197-8ca2-1c0d6b30f15d" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests" name="OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturWeatherResultWithValidProperties" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="2e06736d-d88d-a958-dca1-2a9ed7ff0102">
+      <Execution id="6d618376-c940-4861-a01c-896d3d413da1" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCityWeatherForecast_GetAction_MustReturWeatherResultWithValidProperties" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_ValidCredentials_ReturnsSuccess" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="d5f9684d-da83-5cc6-04b6-a23735498f1b">
+      <Execution id="09cb1d5d-1e8b-4956-8390-4251f826e70a" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest" name="HandleAuthenticateAsync_ValidCredentials_ReturnsSuccess" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests.OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsSucessFull" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="e662425a-aa63-5b09-3947-b857d1e2edde">
+      <Execution id="7b0f331f-d2a8-4d4e-9fb2-ae3642a27971" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.CheckShowStatisticsHeaderTests" name="OnActionExecuting_InvokeWithoutShowStatisticsHeader_ReturnsSucessFull" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherCondition" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="4ab56007-991e-e720-5af2-59460d2275bf">
+      <Execution id="bd92922d-4911-42a9-93ac-3dbaa5a234d9" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherCondition" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturnOkObjectResult" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="057597ad-bb2e-4685-8853-94d669c1f802">
+      <Execution id="14201a3d-5270-420d-b0aa-bcb97c1f9405" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCurrentWeather_GetAction_MustReturnOkObjectResult" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.DomainTest.TemperaturePropertyGetter" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="8978d168-3373-ff79-72fb-a2a0664ca0fd">
+      <Execution id="c4bae65d-e643-4654-9c19-52eac0cb8f4b" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.DomainTest" name="TemperaturePropertyGetter" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.DomainTest.WeatherResultGetter" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="cb5b80a1-4538-5a4b-e075-c695c6e092f0">
+      <Execution id="74a82bec-e38b-411b-a99f-4ef25be9b659" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.DomainTest" name="WeatherResultGetter" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.AdmnControllerTest.GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="4d933897-9002-48b0-801f-70f5d0202372">
+      <Execution id="09bef266-b489-4feb-82ea-1529c2ed35ed" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.AdmnControllerTest" name="GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherTemperatureMinMax" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="be9e8090-4217-f9ea-70ec-b554cc36dda2">
+      <Execution id="cd88ed83-ee62-438e-9e8c-7d288c28dbb6" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherTemperatureMinMax" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.CreateWeatherSetting_IvalidInput_MustReturnOkObjectResult" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="6f98765b-124a-5829-ef32-a5e3ce93dc05">
+      <Execution id="cda83d39-4405-4310-9edb-01b10af84697" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="CreateWeatherSetting_IvalidInput_MustReturnOkObjectResult" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.AdmnControllerTest.GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast_wihMoq" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="b776e91b-c733-6250-a9d2-7ad25e6ca891">
+      <Execution id="a91a0152-846e-4af4-8d69-c2344a7a36de" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.AdmnControllerTest" name="GetAdmin_GetActionForUserInAdminRole_MustRedirectToGetCurrentWeatherForecast_wihMoq" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.StatisticsControllerTests.GetStatistics_InputFromHttpConnectionFeature_MustReturnInputtedIps" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="7e9383f7-2b9b-d586-1166-ac0ec53433cd">
+      <Execution id="5f83b4bd-be23-4aec-92b2-2c4989a53a5e" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.StatisticsControllerTests" name="GetStatistics_InputFromHttpConnectionFeature_MustReturnInputtedIps" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCurrentWeather_GetAction_MustReturWeatherResultWithValidProperties" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="5b2295b6-d8ee-5bf4-763e-1591479dbe1c">
+      <Execution id="79a6c9eb-8c1c-480e-b493-e8dc7866b325" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCurrentWeather_GetAction_MustReturWeatherResultWithValidProperties" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest.HandleAuthenticateAsync_InvalidCredentials_ReturnsFail" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="e9e00bb0-03a7-0473-d223-c3053622702a">
+      <Execution id="5f4fb85c-f0b4-4a27-94e5-c8d2609f8b1f" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.BasicAuthenticationHandlerTest" name="HandleAuthenticateAsync_InvalidCredentials_ReturnsFail" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.DomainTest.WeatherConditionGetter" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="e979497e-a615-ce0c-bbae-ab12e2fa2992">
+      <Execution id="4f8945fe-3524-4cc5-af57-3455033f521b" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.DomainTest" name="WeatherConditionGetter" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherServiceCollectionExtensionsTest.RegisterWeatherServices_Execute_AddWeatherServices" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="26112084-9e33-534b-e403-a16fbb9d165e">
+      <Execution id="c24b8744-109a-41b9-ac6e-4df8ee19a199" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherServiceCollectionExtensionsTest" name="RegisterWeatherServices_Execute_AddWeatherServices" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_HasWeatherWind" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="549efef7-5cbb-4c8e-afe3-0ae444909c2b">
+      <Execution id="2322543f-0294-4bf6-a7e2-ada2de0f2ae9" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_HasWeatherWind" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.RandomWeatherForecasterTest.GetCurrentWeatherAsync_ReturnsCurrentWeather(city: &quot;Seattle&quot;)" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="12cf7891-5a98-062c-94d2-ef5bb04a3686">
+      <Execution id="a15af58a-8b3f-42ab-aee7-40716770ebda" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.RandomWeatherForecasterTest" name="GetCurrentWeatherAsync_ReturnsCurrentWeather" />
+    </UnitTest>
+    <UnitTest name="WebApiBasicAuth.Tests.WeatherForecastControllerTest.GetCityWeatherForecast_GetAction_MustReturnOkObjectResult" storage="c:\training_net\exercise\unittest\securitybasicauth\src\webapibasicauth.tests\bin\debug\net8.0\webapibasicauth.tests.dll" id="36a4505c-e555-ae81-ab3e-58a105ac32ec">
+      <Execution id="138668c4-55a3-460c-ab9a-00d26fb3e96d" />
+      <TestMethod codeBase="C:\Training_NET\Exercise\UnitTest\SecurityBasicAuth\src\WebApiBasicAuth.Tests\bin\Debug\net8.0\WebApiBasicAuth.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiBasicAuth.Tests.WeatherForecastControllerTest" name="GetCityWeatherForecast_GetAction_MustReturnOkObjectResult" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6f98765b-124a-5829-ef32-a5e3ce93dc05" executionId="cda83d39-4405-4310-9edb-01b10af84697" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26112084-9e33-534b-e403-a16fbb9d165e" executionId="c24b8744-109a-41b9-ac6e-4df8ee19a199" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b776e91b-c733-6250-a9d2-7ad25e6ca891" executionId="a91a0152-846e-4af4-8d69-c2344a7a36de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b3e27af-7ffd-af67-b2b3-dc698524096f" executionId="d0a918c8-c9f2-4909-bbf3-121ec63b09a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e81417f7-bbbf-31ed-623e-215411354512" executionId="c37d673c-6d50-4500-abf9-cb39d25e035d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9e2c97b-2e06-13f1-9bb9-2b329073af0b" executionId="ae545105-c17e-4308-a677-7bd76a6753f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12cf7891-5a98-062c-94d2-ef5bb04a3686" executionId="a15af58a-8b3f-42ab-aee7-40716770ebda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb5b80a1-4538-5a4b-e075-c695c6e092f0" executionId="74a82bec-e38b-411b-a99f-4ef25be9b659" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e06736d-d88d-a958-dca1-2a9ed7ff0102" executionId="6d618376-c940-4861-a01c-896d3d413da1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b2295b6-d8ee-5bf4-763e-1591479dbe1c" executionId="79a6c9eb-8c1c-480e-b493-e8dc7866b325" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9e00bb0-03a7-0473-d223-c3053622702a" executionId="5f4fb85c-f0b4-4a27-94e5-c8d2609f8b1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7a46a26-d14c-03ed-1eae-057517576f08" executionId="a4af7f88-10d7-4ef2-9a92-44980174dbfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be9e8090-4217-f9ea-70ec-b554cc36dda2" executionId="cd88ed83-ee62-438e-9e8c-7d288c28dbb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28624ee3-50e0-9f79-7b1e-fdf350098f55" executionId="7b3ce3f4-2d4c-4947-b1a0-a5674f372f92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e662425a-aa63-5b09-3947-b857d1e2edde" executionId="7b0f331f-d2a8-4d4e-9fb2-ae3642a27971" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="469a6675-ee2d-9f9c-093c-d175bd5fcb6f" executionId="fac409f6-8940-4fba-8b1e-b6b926c37f25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36a4505c-e555-ae81-ab3e-58a105ac32ec" executionId="138668c4-55a3-460c-ab9a-00d26fb3e96d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="057597ad-bb2e-4685-8853-94d669c1f802" executionId="14201a3d-5270-420d-b0aa-bcb97c1f9405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e9383f7-2b9b-d586-1166-ac0ec53433cd" executionId="5f83b4bd-be23-4aec-92b2-2c4989a53a5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cdd4c07-f069-e51e-e32f-bd4041db536d" executionId="06527ce1-e2f2-41ca-8980-093c96d97929" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b52e073d-f2d8-924a-ccea-0743efe70ed2" executionId="34471975-aa09-4186-a82d-78d276e2b5b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="549efef7-5cbb-4c8e-afe3-0ae444909c2b" executionId="2322543f-0294-4bf6-a7e2-ada2de0f2ae9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8978d168-3373-ff79-72fb-a2a0664ca0fd" executionId="c4bae65d-e643-4654-9c19-52eac0cb8f4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c68d3da-9763-0f8a-0bd0-3f21b363e841" executionId="c2ebdfde-f642-4cb3-9751-4138713e5383" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ab56007-991e-e720-5af2-59460d2275bf" executionId="bd92922d-4911-42a9-93ac-3dbaa5a234d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfbcd203-4efc-cdb5-defa-68f0f3303a78" executionId="46ceea9f-6de7-4197-8ca2-1c0d6b30f15d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d933897-9002-48b0-801f-70f5d0202372" executionId="09bef266-b489-4feb-82ea-1529c2ed35ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5f9684d-da83-5cc6-04b6-a23735498f1b" executionId="09cb1d5d-1e8b-4956-8390-4251f826e70a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e979497e-a615-ce0c-bbae-ab12e2fa2992" executionId="4f8945fe-3524-4cc5-af57-3455033f521b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.6)&#xD;
+[xUnit.net 00:00:00.11]   Discovering: WebApiBasicAuth.Tests&#xD;
+[xUnit.net 00:00:00.16]   Discovered:  WebApiBasicAuth.Tests&#xD;
+[xUnit.net 00:00:00.17]   Starting:    WebApiBasicAuth.Tests&#xD;
+[xUnit.net 00:00:00.37]   Finished:    WebApiBasicAuth.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
