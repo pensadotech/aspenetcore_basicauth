@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiBasicAuth.ActionFilters;
 
-// This is an example for setting a custome filter for a controller's method
+// This is an example for setting a custom filter for a controller's method
 // It is executed when is set as an attribute. Look as example the
 // StatisticsController.
 

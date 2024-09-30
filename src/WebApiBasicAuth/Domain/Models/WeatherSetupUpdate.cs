@@ -2,6 +2,7 @@
 
 namespace WebApiBasicAuth.Domain.Models;
 
+// Entity to execise POST/PUT operations
 public class WeatherSetupUpdate
 {
     /// <summary>

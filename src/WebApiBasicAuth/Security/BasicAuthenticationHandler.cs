@@ -7,6 +7,8 @@ using System.Text.Encodings.Web;
 
 namespace WebApiBasicAuth.Security;
 
+// Handler to evaluate Basic auth credentials
+
 public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
 {
     private string _userId;   

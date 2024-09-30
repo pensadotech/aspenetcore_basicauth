@@ -8,6 +8,9 @@ using WebApiBasicAuth.Services;
 
 namespace WebApiBasicAuth.Controllers;
 
+// Examaple controler to ilustrate versioning and documentation.
+// It drives a seimple service for getting a weather information for a city.
+
 [ApiController]
 [Route("api/v{version:apiVersion}/WeatherForecast")]
 [ApiVersion("2.0")]

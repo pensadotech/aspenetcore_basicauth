@@ -4,6 +4,8 @@ using WebApiBasicAuth.Security;
 
 namespace WebApiBasicAuth.ServiceCollectionsExtensions;
 
+// Services extension to add security to teh API, in this case Basic Auth
+
 public static class SecurityCollectionExtensions
 {
     public static IServiceCollection AddBasicSecurity(this IServiceCollection services, IConfiguration config)

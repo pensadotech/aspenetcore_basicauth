@@ -1,5 +1,6 @@
 ﻿namespace WebApiBasicAuth.Domain.Entities;
 
+// Entity to store Weather conditions
 public class WeatherCondition
 {
     public string Summary { get; init; } = "Unknown";

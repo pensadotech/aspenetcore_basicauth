@@ -2,6 +2,9 @@
 
 namespace WebApiBasicAuth.Services;
 
+
+// Prenetd implementation for a weather forecster
+
 public class RandomWeatherForecaster : IWeatherForecaster
 {
     private readonly Random _random = new();

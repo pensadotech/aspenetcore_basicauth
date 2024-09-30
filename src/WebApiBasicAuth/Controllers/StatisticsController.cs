@@ -13,7 +13,7 @@ namespace WebApiBasicAuth.Controllers;
 // This controller was created to ilustrate unit testing using a
 // http context with a defined HttpConnectionFeature.
 // The controller uses AutoMapper and the
-// WebApiBasicAuth.MapperProfiles.StatisticsProfile  
+// WebApiBasicAuth.MapperProfiles.StatisticsProfile.  
 
 [Route("api/v{version:apiVersion}/Statistics")]
 [ApiController]

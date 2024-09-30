@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiBasicAuth.ServiceCollectionsExtensions;
 
+// Service extenstion to add filtering options to controllers
+
 public static class ControllersOptionsCollectionExtension
 {
 

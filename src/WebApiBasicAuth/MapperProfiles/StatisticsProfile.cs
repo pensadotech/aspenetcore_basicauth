@@ -5,6 +5,8 @@ using WebApiBasicAuth.Domain.Models;
 
 namespace WebApiBasicAuth.MapperProfiles;
 
+// Auto mapper profile
+
 public class StatisticsProfile : Profile
 {
     public StatisticsProfile()

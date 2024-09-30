@@ -3,6 +3,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace WebApiBasicAuth.Filters;
 
+// Filter to remove from documentation tex/plain opetions
 public class RemovePlainTextMediaTypeFilter : IOperationFilter
 {
     public void Apply(OpenApiOperation operation, OperationFilterContext context)

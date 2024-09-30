@@ -4,6 +4,8 @@ using Microsoft.OpenApi.Models;
 
 namespace WebApiBasicAuth.ServiceCollectionsExtensions;
 
+// Services extension to add extra functionality for Open API docs (swagger)
+
 public static class OpenApiServiceCollectionExtensions
 {
     public static IServiceCollection AddOpenApiDocumentation(this IServiceCollection services)

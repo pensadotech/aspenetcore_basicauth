@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApiBasicAuth.Controllers;
 
 // This controller was created to ilustrate unit testing using a
-// http context with a defined Pricnipal. 
+// http context with a defined Pricnipal . 
 
 [Route("api/v{version:apiVersion}/admin")]
 [ApiVersion("1.0")]

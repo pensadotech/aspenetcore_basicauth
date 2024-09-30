@@ -6,7 +6,7 @@ using WebApiBasicAuth.ServiceCollectionsExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// SERVICES (add to DI container)
+// SERVICES ( add to DI container )
 
 // Use service collection extensions
 builder.Services
