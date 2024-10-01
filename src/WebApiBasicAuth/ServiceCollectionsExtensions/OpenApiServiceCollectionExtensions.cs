@@ -1,6 +1,7 @@
 ﻿using Asp.Versioning.ApiExplorer;
 using Asp.Versioning;
 using Microsoft.OpenApi.Models;
+using WebApiBasicAuth.Filters;
 
 namespace WebApiBasicAuth.ServiceCollectionsExtensions;
 
@@ -54,6 +55,10 @@ public static class OpenApiServiceCollectionExtensions
                     });
                 }
             }
+
+            // FILTERS
+            // Add custom operation filter to remove text/plain filter in web page
+            c.OperationFilter<RemovePlainTextMediaTypeFilter>();
 
             // Using Swashbuckle.AspNetCore.Annotations and adding to 
             // each method, [SwaggerOperation(Summary = "myDescription, OperationId = "Post_Person")] 
